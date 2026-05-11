@@ -1,0 +1,23 @@
+# Tekai AI — Python dependencies
+# Install with: pip install -r requirements.txt
+
+# Core
+flask>=3.0
+flask-cors>=4.0
+
+# AI (Groq + OpenRouter via OpenAI-compatible API)
+openai>=1.0
+
+# Web search (optional — enables "Web Research" toggle)
+duckduckgo-search>=4.0
+
+# Supabase auth + database
+supabase>=2.0
+
+# PDF text extraction
+PyPDF2>=3.0
+# Alternative (if PyPDF2 fails): pypdf>=3.0
+
+# Image helpers (optional)
+Pillow>=10.0
+requests>=2.31
